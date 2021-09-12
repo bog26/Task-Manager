@@ -12,6 +12,6 @@ namespace Tasks.Model
         public string Name { get; set; }
         public DateTime? DueDate { get; set; }
         public int StatusId { get; set; } //foreign key
-        public Status Status { get; set; }
+        public Status Status { get; set; } // navigation property
     }
 }
